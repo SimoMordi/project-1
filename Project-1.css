@@ -1,0 +1,45 @@
+.list-wrapper {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    border-radius: 4px;
+    background-color: rgb(120, 91, 148);
+}
+
+.list-cards li {
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(120, 91, 148);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+}
+#webPage {
+     width: 1200px;
+     height: 700px;
+     background-color: rgb(186, 107, 141);
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 150px 1fr 100px;
+     margin:5px auto;
+     gap: 5px;
+}
+#navBarDiv {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Motivation-container{
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    gap: 130px;
+}
